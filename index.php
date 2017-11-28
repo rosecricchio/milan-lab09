@@ -1,0 +1,1 @@
+<script type="text/javascript">location.href = 'user_survey.php';</script>

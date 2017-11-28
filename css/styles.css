@@ -1,0 +1,530 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+h1{
+  font-family: 'Shrikhand', cursive;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  margin: 0 0 50px; /* bottom = footer height */
+}
+
+h2{
+  font-family: 'Shrikhand', cursive;
+  text-decoration: underline;
+  text-decoration-color: #edbe23;
+}
+
+h3{
+  font-size: 1.25rem;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.text-link {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #edbe23;
+}
+
+.text-link:hover {
+  color: #edbe23;
+  text-decoration: none;
+}
+
+.contain {
+  width: 75%;
+  max-width: 2000px;
+  padding: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 5rem;
+}
+
+.survey{
+  font-family: 'Lato', sans-serif;
+  padding: 1rem 1rem 1.5rem 2rem;
+}
+.survey_color{
+  background-color: #E6E6FA;
+}
+
+.survey fieldset{
+  margin-top: 2rem;
+}
+.survey legend{
+  font-family: 'Shrikhand', cursive;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+.question, .inpage_links{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.75rem;
+}
+
+.question{
+  padding-top: 2rem;
+}
+
+.explain {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  color: #333;
+}
+
+.thanks{
+  font-size: 2rem;
+  text-align: center;
+}
+
+.fixed {
+    display: inline-block;
+    width: 120px;
+}
+
+figcaption{
+  text-align: center;
+  font-style: italic;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.responses {
+  font-family: 'Lato', Sans-Serif;
+  font-size: 0.8rem;
+  background: #fff;
+  border-collapse: collapse;
+  text-align: left;
+  padding-top: 1rem;
+}
+.responses th {
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+  padding: 5px 8px;
+  border-bottom: 2px solid #493901;
+}
+.responses td {
+  color: #493901;
+  padding: 9px 8px 6px 8px;
+}
+
+.responses tbody tr:hover td{
+  color: #000;
+  background-color: #edbe23;
+}
+
+.arrow{
+  height: 150px;
+  width: 150px;
+}
+
+.questions{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+}
+.button {
+    background-color: #000;
+    border: none;
+    color: #edbe23;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.button:hover {
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+  }
+/* FORCING SCROLLBAR FOR MAC
+---------------------------------------------------------------- */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+
+footer{
+  text-align: center;
+  height: 40px;
+}
+
+.break{
+	font-size: 2em;
+	color: white;
+}
+
+.conditional_hide{
+  display: none;
+}
+
+/* GRID LAYOUT STYLES
+---------------------------------------------------------------- */
+
+.information {
+  display: grid;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  grid-template-columns: 2fr 1.5fr;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.title{
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.par1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.par2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.par3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.par4 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.par5{
+  grid-column: 1/2;
+  grid-row: 4/5;
+  padding: 15px;
+  margin-right: 20px;
+
+}
+.par6 {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.par7{
+  grid-column: 1/2;
+  grid-row: 5/6;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.par8{
+  grid-column: 2/3;
+  grid-row: 5/6;
+  padding: 15px;
+  margin-left: 20px;
+  text-align: center;
+  font-size: 3em;
+  vertical-align: middle;
+}
+
+/* OVERRIDING BOOTSTRAP NAVIGATION STYLES TO MAKE ITEMS STICK TO THE RIGHT 
+----------------------------------------------------------------
+.mr-auto {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+}
+ */
+
+/* FOR BACK-TO-TOP BUTTON
+---------------------------------------------------------------- */
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .8;
+}
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: #edbe23 url(../images/top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0.1;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
+/* OFFSET INPAGE NAVIGATION
+---------------------------------------------------------------- */
+
+.offset:before { 
+  display: block; 
+  content: " "; 
+    height: 250px;      /* Give height of your fixed element */
+        margin-top: -180px; /* Give negative margin of your fixed element */    
+        visibility: hidden; 
+}
+
+/* NAVIGATION BAR
+---------------------------------------------------------------- */
+
+.nav {
+  font-family: 'Lato', sans-serif;
+  float: right;
+}
+
+.masthead {
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 9;
+}
+
+.masthead-brand {
+  font-family: 'Shrikhand', cursive;
+  color: #edbe23;
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.masthead-brand:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-masthead .nav-link {
+  padding: 0;
+  padding-top: 5px;
+  color: rgba(255,255,255,.5);
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  color: rgba(237, 190, 35, .85);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active{
+  color: #fff;
+  border-bottom-color: #edbe23;
+}
+
+.nav-masthead .default{
+   color: #edbe23;
+}
+
+
+/* CHECKBOX
+---------------------------------------------------------------- */
+/* Customize the label (the container) */
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #fff;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #edbe23;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* RADIOBUTTONS
+---------------------------------------------------------------- */
+/* Customize the label (the container) */
+/* The container */
+.radio-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Create a custom radio button */
+.radio-checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .radio-checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .radio-checkmark {
+    background-color: #edbe23;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .radio-checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .radio-checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
