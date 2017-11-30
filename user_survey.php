@@ -9,7 +9,7 @@
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Shrikhand|Lato" rel="stylesheet">
 
-    <title>Milan Lab08 - User Survey</title>
+    <title>Milan Lab 9</title>
   </head>
 
   <body class="content">
@@ -31,10 +31,11 @@
   	<h1 class="title">Help us bring YOUR favorite foods to YOUR community!</h1>
 
   	<div class="par1">
-  	<h2 class="offset">Our Goal</h2>
-  	<p>The goal of our survey is to understand the preferences and tastes of the Rochester community so that we can collaborate with the city and different restaurants in the country to bring your favorites near you. Through our survey we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. We would also like to learn what your favorite restaurants currently found in Rochester are so that we can work closely with them in assuring that your dining experience will be improved through variety, quality, affordability and good service.</p>
-  	</div>
+  	<h2 class="offset">An Anthropological Perspective</h2>
+  	<p>Apart from travellers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places usually do not allow one in half dressed. You cannot lounge around the local pizza parlor in a dressing gown or underwear. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
+	</div>
 
+ 
   	<div class="par2">
   	<figure>
   		<img src="images/luck.jpg" alt="Image of Restaurant Good Luck in Rochester, NY">
@@ -47,19 +48,15 @@
   	<p>A little bit of background… Rochester has five colleges and universities in the closest proximity to downtown. Many of the students in these colleges are international and come from different countries from all over the world and for some of them it is their first time in Rochester and the U.S. It is very common that students live off campus after their first one or two years in college and they start eating on campus less over time. They switch to cooking at home or due to their hectic schedule mostly eating out at restaurants. For students who come from very different background and cultures it might be tough to adjust to one specific cuisine or they might want variety over time given that they will spend at least four years in Rochester. Besides students of colleges around Rochester, the city also has corporations like Wegmans, Xerox, Eastman Kodak, Verizon, Exelis, who are some of the largest employers in the area. Given their employees busy schedule, dinning option are not only important to students, who make up a big chunk of the local community, but it is also important to working professionals.</p>
   </div>
 
-  <div class="par4">
+
+  <div class="par6">
   	<figure>
   		<img src="images/revelry.jpg" alt="Image of a dish from The Revelry in Rochester, NY">
   		<figcaption>Appetizers at The Revelry</figcaption>
   	</figure>
   </div>
 
-  <div class="par5">
-  	<h2 class="offset">An Anthropological Perspective</h2>
-  	<p>Apart from travellers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places usually do not allow one in half dressed. You cannot lounge around the local pizza parlor in a dressing gown or underwear. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
-	</div>
-
-	<div class="par6">
+	<div class="par4">
 	<h2>Yelp - Top 10 Rochester Restaurants</h2>
 	<ol>
 		<li>East End Tavern</li>
@@ -75,6 +72,11 @@
 	</ol>
 	</div>
 
+	<div class="par5">
+  	<h2 class="offset">Our Goal</h2>
+  	<p>The goal of our survey is to understand the preferences and tastes of the Rochester community so that we can collaborate with the city and different restaurants in the country to bring your favorites near you. Through our survey we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. We would also like to learn what your favorite restaurants currently found in Rochester are so that we can work closely with them in assuring that your dining experience will be improved through variety, quality, affordability and good service.</p>
+  	</div>
+
   	<div class="par7">
   	<h2 class="offset">Participate in Our Survey</h2>
   	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options in Rochester so that we can bring YOUR favorite foods near you. Please take our short survey and helps us help you eat better!</p>
@@ -83,8 +85,8 @@
   	<div class="par8">
   	<a href="#survey" class="smoothScroll"><img class="arrow" src="images/downArrow.svg" alt="down arrow"></a>
   	</div>
-  </div>
-</div>
+  </div><!--information-->
+</div><!--contain-->
 	<a id="survey" class="smoothScroll">
 	<div class="break">.</div>
 	</a>
