@@ -17,7 +17,9 @@
          <div class="inner">
               <a class="masthead-brand" href="user_survey.php">Rochester Eats</a>
               <nav class="nav nav-masthead">
-			    <a href="#info" class="active nav-link smoothScroll">Background Info</a>
+			    <a href="#anthro" class="active nav-link smoothScroll">Background</a>
+			    <a href="#rochester" class="active nav-link smoothScroll">About Rochester</a>
+			    <a href="#goal" class="active nav-link smoothScroll">Our Goal</a>
 			    <a href="#survey" class="active nav-link smoothScroll">Take Survey!</a>
 			  </nav>
          </div>
@@ -30,12 +32,11 @@
   <div class="information">
   	<h1 class="title">Help us bring YOUR favorite foods to YOUR community!</h1>
 
-  	<div class="par1">
+  	<div class="par1" id="anthro">
   	<h2 class="offset">An Anthropological Perspective</h2>
   	<p>Apart from travellers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places usually do not allow one in half dressed. You cannot lounge around the local pizza parlor in a dressing gown or underwear. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
 	</div>
 
- 
   	<div class="par2">
   	<figure>
   		<img src="images/luck.jpg" alt="Image of Restaurant Good Luck in Rochester, NY">
@@ -43,9 +44,9 @@
   	</figure>
   	</div>
 
-  	<div id="info" class="par3">
-  	<h2 class="offset">Some Background ... </h2>
-  	<p>A little bit of background… Rochester has five colleges and universities in the closest proximity to downtown. Many of the students in these colleges are international and come from different countries from all over the world and for some of them it is their first time in Rochester and the U.S. It is very common that students live off campus after their first one or two years in college and they start eating on campus less over time. They switch to cooking at home or due to their hectic schedule mostly eating out at restaurants. For students who come from very different background and cultures it might be tough to adjust to one specific cuisine or they might want variety over time given that they will spend at least four years in Rochester. Besides students of colleges around Rochester, the city also has corporations like Wegmans, Xerox, Eastman Kodak, Verizon, Exelis, who are some of the largest employers in the area. Given their employees busy schedule, dinning option are not only important to students, who make up a big chunk of the local community, but it is also important to working professionals.</p>
+  	<div id="rochester" class="par3">
+  	<h2 class="offset">About Rochester</h2>
+  	<p>Rochester has five colleges and universities in close proximity to downtown. Many of the students in these colleges are international and come from different countries from all over the world, and for some of them it is their first time in Rochester and the U.S. It is very common that students live off campus after their first one or two years in college, and they start eating on campus less over time. They switch to cooking at home or, due to their hectic schedule, mostly eat out at restaurants. For students who come from very different background and cultures, it might be tough to adjust to one specific cuisine, or they might want variety over time given that they will spend at least four years in Rochester. Besides colleges, Rochester also has corporations like Wegmans, Xerox, Eastman Kodak, Verizon, and Exelis, who are some of the largest employers in the area. Given their employees busy schedule, dining options are not only important to students, who make up a large chunk of the local community, but also  to working professionals.</p>
   </div>
 
 
@@ -72,9 +73,9 @@
 	</ol>
 	</div>
 
-	<div class="par5">
+	<div class="par5" id="goal">
   	<h2 class="offset">Our Goal</h2>
-  	<p>The goal of our survey is to understand the preferences and tastes of the Rochester community so that we can collaborate with the city and different restaurants in the country to bring your favorites near you. Through our survey we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. We would also like to learn what your favorite restaurants currently found in Rochester are so that we can work closely with them in assuring that your dining experience will be improved through variety, quality, affordability and good service.</p>
+  	<p>The goal of our survey is to understand the preferences and tastes of the Rochester community so that we can collaborate with the city and different restaurants in the country to bring your favorites closer to you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. We would also like to learn what your favorite restaurants currently found in Rochester are so that we can work closely with them in assuring that your dining experience will be improved through variety, quality, affordability and good service.</p>
   	</div>
 
   	<div class="par7">
@@ -87,6 +88,7 @@
   	</div>
   </div><!--information-->
 </div><!--contain-->
+
 	<a id="survey" class="smoothScroll">
 	<div class="break">.</div>
 	</a>
@@ -120,7 +122,7 @@
 			  <input type="radio" id="studentNo" name="student" value="no">
 			  <span class="radio-checkmark"></span>
 			</label>
-			<!-- Only revela next question if they click yes above-->
+			<!-- Only reveal next question if they click yes above-->
 			<div class="conditional_hide" id="international">
 				<div class="questions">Are you an international student?</div>
 				<label class="radio-container">Yes
@@ -132,7 +134,7 @@
 				  <span class="radio-checkmark"></span>
 				</label>
 			</div>
-			<!-- only revela next question if they respond yes-->
+			<!-- only reveal next question if they respond yes-->
 			<div class="conditional_hide" id="getCountry">
 				<div class="questions">What country are you from?</div>
 					<textarea name="country" id="country-of-origin"></textarea><br>
@@ -216,8 +218,8 @@
 
 	</fieldset>
 	<input class="button" type="submit" value="Submit"><br>
-</div>
-</div>
+</div><!--surver contain-->
+</div><!--survey-color-->
 <div class="contain citations">
 	<h3>Citations:</h3>
 	<ul>
@@ -228,7 +230,7 @@
 	</form>
 	<a href="#0" class="cd-top">Top</a>
 	</article>
-	<footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 08.</footer>
+	<footer> &copy; This webpage was created by Team Milan for CSC 174 Assignment 09.</footer>
 	<script src="js/showIfChecked.js"></script>
 	<!-- SmoothScroll JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
