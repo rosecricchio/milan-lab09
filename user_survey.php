@@ -26,7 +26,6 @@
      </div>
   	<article>
   	<div class="contain">
-  		
 
 	<div class="break">.</div>
 
