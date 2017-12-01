@@ -8,21 +8,21 @@
 		<link href="css/styles.css" rel="stylesheet">
   		 <!-- Fonts -->
   		<link href="https://fonts.googleapis.com/css?family=Shrikhand|Lato" rel="stylesheet">
-  		<title>Milan Lab 9- Admin Login</title>
+  		<title>Milan Lab 9- Admin Create</title>
 	</head>
 
 	<body>
 
 		 <div class="masthead">
       		<div class="inner">
-          		<a class="masthead-brand" href="admin_login.php">Rochester Eats-Admin</a> 
+          		<a class="masthead-brand" href="admin_login.php">Rochester Eats-Admin</a>
+         		 
      		 </div>
   		</div>
 
 		<div class="contain">
-			<h2>Login</h2>
-			<!--login form stuff-->
-			<div class="explain">Don't have an account? Click <a href="admin_create.php"> here </a> to create one.</div>
+			<h2>Create an Account</h2>
+			<!--account creation form stuff-->
 		</div>
 
 	</body>
