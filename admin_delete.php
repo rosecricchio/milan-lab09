@@ -33,7 +33,7 @@
 	<link href="css/styles.css" rel="stylesheet">
    <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Shrikhand|Lato" rel="stylesheet">
-    <title>Milan Lab08 - Admin</title>
+    <title>Milan Lab 9 - Admin Delete</title>
 
   </head>
 
