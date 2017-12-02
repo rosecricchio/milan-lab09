@@ -92,7 +92,7 @@
 
     </article>
 
-  <footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 08.</footer>
+  <footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 9.</footer>
   <?php include "inc/scripts.php" ;?> 
 
   </body>

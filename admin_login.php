@@ -25,6 +25,8 @@
 			<div class="explain">Don't have an account? Click <a href="admin_create.php"> here </a> to create one.</div>
 		</div>
 
+		<footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 9.</footer>
+
 	</body>
 
 </html>

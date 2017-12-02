@@ -25,6 +25,8 @@
 			<!--account creation form stuff-->
 		</div>
 
+		<footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 9.</footer>
+
 	</body>
 
 </html>
