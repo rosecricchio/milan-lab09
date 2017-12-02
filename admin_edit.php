@@ -49,7 +49,7 @@
       $query .= "SET {$val[1]} = '{$val[0]}'";
       $query .= "WHERE user_id = {$updateID};";
 
-      $push = mysqli_query($mysqli, $query);
+      $push = mysqli_query($link, $query);
 
     }
 
@@ -57,10 +57,10 @@
 
   // get all data
   $query = "SELECT * FROM responses;";
-  $result = mysqli_query($mysqli, $query);
+  $result = mysqli_query($link, $query);
 
 
-  $mysqli->close();
+  $link->close();
 ?>
 
 <!DOCTYPE html>

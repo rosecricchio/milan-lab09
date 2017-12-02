@@ -29,10 +29,10 @@
 				PRIMARY KEY (`user_id`)
 			) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7;";
 
-
+	$stmt = mysqli_prepare($link, $query);
 	// run the build table query
-	$result = mysqli_query($mysqli, $query);
-
+	// $result = mysqli_query($link, $query);
+	mysqli_stmt_execute($stmt);
 	// build admintable query
 	$query = "CREATE TABLE IF NOT EXISTS admininfo (
 				`indexVal` int(11) NOT NULL AUTO_INCREMENT,
@@ -40,6 +40,9 @@
 				`password` varchar(254) NOT NULL,
 				PRIMARY KEY (`indexVal`)
 			) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7;";
-
-	$result = mysqli_query($mysqli, $query);
+	$stmt = mysqli_prepare($link, $query);
+			// run the build table query
+			// $result = mysqli_query($link, $query);
+			mysqli_stmt_execute($stmt);
+	// $result = mysqli_query($link, $query);
 ?>
