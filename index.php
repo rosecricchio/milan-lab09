@@ -52,8 +52,8 @@
 
   <div class="par6">
   	<figure>
-  		<img src="images/revelry.jpg" alt="Image of a dish from The Revelry in Rochester, NY">
-  		<figcaption>Appetizers at The Revelry</figcaption>
+  		<img src="images/downtown.jpg" alt="Downtown Rochester, NY">
+  		<figcaption>Downtown Rochester, NY</figcaption>
   	</figure>
   </div>
 
@@ -61,26 +61,21 @@
 	<h2>Top 10 Restaurants</h2>
 	<ol>
 		<li>East End Tavern</li>
-		<li>The Spirit Room</li>
 		<li>Nosh</li>
+		<li>Good Luck Restaurant</li>
 		<li>Dinosaur Bar-B-Que</li>
-		<li>Good Luck Restaurants</li>
-		<li>El Divino</li>
-		<li>The Owl House</li>
-		<li>Cedar Mediterranean Restaurant</li>
+		<li>The Spirit Room</li>
+		<li>Morton’s the Steakhouse</li>
+		<li>The Vesper</li>
 		<li>Tap and Mallet</li>
-		<li>Toasted Bear Tavern</li>
+		<li>Cedar Mediterranean Restaurant</li>
+		<li>The French Quarter</li>
 	</ol>
 	</div>
 
-	<div class="par5" id="goal">
-  	<h2 class="offset">Our Goal</h2>
-  	<p>The goal of our survey is to understand the preferences and tastes of the Rochester community so that we can collaborate with the city and different restaurants in the country to bring your favorites closer to you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. We would also like to learn what your favorite restaurants currently found in Rochester are so that we can work closely with them in assuring that your dining experience will be improved through variety, quality, affordability and good service.</p>
-  	</div>
-
-  	<div class="par7">
+  	<div class="par5">
   	<h2 class="offset">Participate in Our Survey</h2>
-  	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options in Rochester so that we can bring YOUR favorite foods near you. Please take our short survey and helps us help you eat better!</p>
+  	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options in Rochester so that we can bring YOUR favorite foods near you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. Please take our short survey and help us help you eat better!</p>
   	</div>
 
 
