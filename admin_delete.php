@@ -1,5 +1,14 @@
 <?php
 
+  // // Initialize the session
+  // session_start();
+  //
+  // // If session variable is not set it will redirect to login page
+  // if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+  //   header("location: admin_login.php");
+  //   exit;
+  // }
+
   require_once("php/create_table.php");
 
   if (!empty($_POST["selection"])) {
@@ -93,7 +102,7 @@
     </article>
 
   <footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 9.</footer>
-  <?php include "inc/scripts.php" ;?> 
+  <?php include "inc/scripts.php" ;?>
 
   </body>
 

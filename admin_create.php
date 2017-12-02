@@ -1,13 +1,22 @@
 <?php
 
-require_once("php/create_table.php");
+	// // Initialize the session
+	// session_start();
+  //
+	// // If session variable is not set it will redirect to login page
+	// if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+	// 	header("location: admin_login.php");
+	// 	exit;
+	// }
 
-// Define variables and initialize with empty values
-$username = $password = $confirm_password = "";
-$username_err = $password_err = $confirm_password_err = "";
+	require_once("php/create_table.php");
 
-// Processing form data when form is submitted
-if($_SERVER["REQUEST_METHOD"] == "POST"){
+	// Define variables and initialize with empty values
+	$username = $password = $confirm_password = "";
+	$username_err = $password_err = $confirm_password_err = "";
+
+	// Processing form data when form is submitted
+	if($_SERVER["REQUEST_METHOD"] == "POST"){
 
     // Validate username
     if(empty(trim($_POST["username"]))){
