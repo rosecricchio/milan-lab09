@@ -15,7 +15,7 @@
   <body class="content">
   	<div class="masthead">
          <div class="inner">
-              <a class="masthead-brand" href="user_survey.php">Rochester Eats</a>
+              <a class="masthead-brand" href="index.php">Rochester Eats</a>
               <nav class="nav nav-masthead">
 			    <a href="#anthro" class="active nav-link smoothScroll">Background</a>
 			    <a href="#rochester" class="active nav-link smoothScroll">About Rochester</a>
@@ -34,7 +34,7 @@
 
   	<div class="par1" id="anthro">
   	<h2 class="offset">An Anthropological Perspective</h2>
-  	<p>Apart from travellers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level, it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places have rules that differ from the home. You cannot lounge around the local pizza parlor in a dressing gown. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
+  	<p>Apart from travelers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level, it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places have rules that differ from the home. You cannot lounge around the local pizza parlor in a dressing gown. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
 	</div>
 
   	<div class="par2">
@@ -74,7 +74,7 @@
 	</div>
 
   	<div class="par5">
-  	<h2 class="offset">Participate in Our Survey</h2>
+  	<h2 class="offset">Our Goal</h2>
   	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options  so that we can bring your favorite foods closer to you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. Please take our short survey and help us help you eat better!</p>
   	</div>
 
