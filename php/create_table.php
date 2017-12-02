@@ -1,15 +1,17 @@
 <?php
 
-	// inititalize bluehost DB connection
-	$username = "urcscon3_milan";
-	$database = "urcscon3_milan";
+	/* Database credentials */
+	define('DB_SERVER', '66.147.242.186');
+	define('DB_USERNAME', 'urcscon3_milan');
+	define('DB_PASSWORD', 'coffee1N');
+	define('DB_NAME', 'urcscon3_milan');
 
-	$mysqli = new mysqli('66.147.242.186', $username, 'coffee1N', $database);
+	/* Attempt to connect to MySQL database */
+	$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-	// test connection
-	if ($mysqli->connect_error) {
-		die('connect error (' . $mysqli->connect_errno . ')'
-			. $mysqli->connect_error);
+	// Check connection
+	if($link === false){
+	    die("ERROR: Could not connect. " . mysqli_connect_error());
 	}
 
 	// build table query
@@ -24,10 +26,20 @@
 				`cuisines` varchar(60) NOT NULL,
 				`restaurants` varchar(120) NOT NULL,
 				`comments` text NOT NULL,
-				PRIMARY KEY (`user_id`) 
+				PRIMARY KEY (`user_id`)
 			) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7;";
 
 
 	// run the build table query
+	$result = mysqli_query($mysqli, $query);
+
+	// build admintable query
+	$query = "CREATE TABLE IF NOT EXISTS admininfo (
+				`indexVal` int(11) NOT NULL AUTO_INCREMENT,
+				`username` varchar(254) NOT NULL,
+				`password` varchar(254) NOT NULL,
+				PRIMARY KEY (`indexVal`)
+			) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7;";
+
 	$result = mysqli_query($mysqli, $query);
 ?>
