@@ -34,7 +34,7 @@
 
   	<div class="par1" id="anthro">
   	<h2 class="offset">An Anthropological Perspective</h2>
-  	<p>Apart from travellers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places usually do not allow one in half dressed. You cannot lounge around the local pizza parlor in a dressing gown or underwear. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
+  	<p>Apart from travellers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level, it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places have rules that differ from the home. You cannot lounge around the local pizza parlor in a dressing gown. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
 	</div>
 
   	<div class="par2">
@@ -58,7 +58,7 @@
   </div>
 
 	<div class="par4">
-	<h2>Yelp - Top 10 Rochester Restaurants</h2>
+	<h2>Top 10 Restaurants</h2>
 	<ol>
 		<li>East End Tavern</li>
 		<li>The Spirit Room</li>
@@ -83,9 +83,7 @@
   	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options in Rochester so that we can bring YOUR favorite foods near you. Please take our short survey and helps us help you eat better!</p>
   	</div>
 
-  	<div class="par8">
-  	<a href="#survey" class="smoothScroll"><img class="arrow" src="images/downArrow.svg" alt="down arrow"></a>
-  	</div>
+
   </div><!--information-->
 </div><!--contain-->
 
