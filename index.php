@@ -46,7 +46,7 @@
 
   	<div id="rochester" class="par3">
   	<h2 class="offset">About Rochester</h2>
-  	<p>Rochester has five colleges and universities in close proximity to downtown. Many of the students in these colleges are international and come from different countries from all over the world, and for some of them it is their first time in Rochester and the U.S. It is very common that students live off campus after their first one or two years in college, and they start eating on campus less over time. They switch to cooking at home or, due to their hectic schedule, mostly eat out at restaurants. For students who come from very different background and cultures, it might be tough to adjust to one specific cuisine, or they might want variety over time given that they will spend at least four years in Rochester. Besides colleges, Rochester also has corporations like Wegmans, Xerox, Eastman Kodak, Verizon, and Exelis, who are some of the largest employers in the area. Given their employees busy schedule, dining options are not only important to students, who make up a large chunk of the local community, but also  to working professionals.</p>
+  	<p>Rochester has five colleges and universities in close proximity to downtown. Many of the students in these colleges are international, and for some of them it is their first time in Rochester and in the U.S. It is very common that students live off campus after their first one or two years in college, and start eating on campus less over time. They switch to cooking at home or, due to their hectic schedule, at turn to restaurants or takout. For students who come from very different background and cultures, it might be tough to adjust to one specific cuisine, or they simply might want variety over time given that they will spend at least four years in Rochester. Besides colleges, Rochester also has corporations like Wegmans, Xerox, Eastman Kodak, Verizon, and Exelis, who are some of the largest employers in the area. Given their employees busy schedules, dining options are not only important to students, who make up a large chunk of the local community, but also to working professionals.</p>
   </div>
 
 
@@ -75,7 +75,7 @@
 
   	<div class="par5">
   	<h2 class="offset">Participate in Our Survey</h2>
-  	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options in Rochester so that we can bring YOUR favorite foods near you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. Please take our short survey and help us help you eat better!</p>
+  	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options  so that we can bring your favorite foods closer to you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. Please take our short survey and help us help you eat better!</p>
   	</div>
 
 
