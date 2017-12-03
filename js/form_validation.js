@@ -3,6 +3,9 @@ $(document).ready(function(){
     if($(this).val().length < 6){
     $('.to-append-message').text('Password must contain at least 6 characters.')
     $('button#submit').attr('disabled','disabled');
+  } else if ($(this).val() != $('.confirm_password').val()) {
+    $('.to-append-message').text('Confirm password and password do not match.')
+    $('button#submit').attr('disabled','disabled');
   } else {
     $('.to-append-message').text('');
     $('button#submit').removeAttr('disabled');
@@ -25,6 +28,9 @@ $(document).ready(function(){
   $('.confirm_password').keyup(function(){
     if($(this).val() != $('.password').val()) {
     $('.to-append-message').text('Confirm password and password do not match.')
+    $('button#submit').attr('disabled','disabled');
+  } else if ($('.password').val().length < 6){
+    $('.to-append-message').text('Password must contain at least 6 characters.')
     $('button#submit').attr('disabled','disabled');
   } else {
     $('.to-append-message').text('');
