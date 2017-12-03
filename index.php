@@ -73,9 +73,9 @@
 	</ol>
 	</div>
 
-  	<div class="par5" id="goal">
+  	<div class="par5">
   	<h2 class="offset">Our Goal</h2>
-  	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options  so that we can bring your favorite foods closer to you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. Please take our short survey and help us help you eat better!</p>
+  	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options so that we can bring your favorite foods closer to you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. Please take our short survey and help us help you eat better!</p>
   	</div>
 
 
