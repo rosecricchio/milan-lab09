@@ -1,13 +1,10 @@
 $(document).ready(function(){
   $('.password').keyup(function(){
     if($(this).val().length < 6){
-    $('.to-append-message').text('Password must contain at least 6 characters.')
-    $('button#submit').attr('disabled','disabled');
-  } else if ($(this).val() != $('.confirm_password').val()) {
-    $('.to-append-message').text('Confirm password and password do not match.')
+    $('.password_err').text('Password must contain at least 6 characters.')
     $('button#submit').attr('disabled','disabled');
   } else {
-    $('.to-append-message').text('');
+    $('.password_err').text('');
     $('button#submit').removeAttr('disabled');
   }
 
@@ -16,10 +13,10 @@ $(document).ready(function(){
 
   $('.username').keyup(function(){
     if($(this).val().length < 4){
-    $('.to-append-message').text('Username must contain at least 4 characters.')
+    $('.username_err').text('Username must contain at least 4 characters.')
     $('button#submit').attr('disabled','disabled');
   } else {
-    $('.to-append-message').text('');
+    $('.username_err').text('');
     $('button#submit').removeAttr('disabled');
   }
 
@@ -27,13 +24,10 @@ $(document).ready(function(){
 
   $('.confirm_password').keyup(function(){
     if($(this).val() != $('.password').val()) {
-    $('.to-append-message').text('Confirm password and password do not match.')
-    $('button#submit').attr('disabled','disabled');
-  } else if ($('.password').val().length < 6){
-    $('.to-append-message').text('Password must contain at least 6 characters.')
+    $('.confirm_password_err').text('Confirm password and password do not match.')
     $('button#submit').attr('disabled','disabled');
   } else {
-    $('.to-append-message').text('');
+    $('.confirm_password_err').text('');
     $('button#submit').removeAttr('disabled');
   }
 
@@ -45,10 +39,10 @@ $(document).ready(function(){
     var valEmail = re.test($(this).val());
 
     if(!valEmail){
-    $('.to-append-message').text('Please enter a valid email address.')
+    $('.email_err').text('Please enter a valid email address.')
     $('button#submit').attr('disabled','disabled');
   } else {
-    $('.to-append-message').text('');
+    $('.email_err').text('');
     $('button#submit').removeAttr('disabled');
   }
 

@@ -276,7 +276,7 @@ footer{
   vertical-align: middle;
 }
 
-/* OVERRIDING BOOTSTRAP NAVIGATION STYLES TO MAKE ITEMS STICK TO THE RIGHT 
+/* OVERRIDING BOOTSTRAP NAVIGATION STYLES TO MAKE ITEMS STICK TO THE RIGHT
 ----------------------------------------------------------------
 .mr-auto {
   margin-left: auto !important;
@@ -330,12 +330,12 @@ footer{
 /* OFFSET INPAGE NAVIGATION
 ---------------------------------------------------------------- */
 
-.offset:before { 
-  display: block; 
-  content: " "; 
+.offset:before {
+  display: block;
+  content: " ";
     height: 250px;      /* Give height of your fixed element */
-        margin-top: -180px; /* Give negative margin of your fixed element */    
-        visibility: hidden; 
+        margin-top: -180px; /* Give negative margin of your fixed element */
+        visibility: hidden;
 }
 
 /* NAVIGATION BAR
@@ -527,4 +527,9 @@ footer{
   height: 8px;
   border-radius: 50%;
   background: white;
+}
+
+
+.hide {
+  display: none !important;
 }
