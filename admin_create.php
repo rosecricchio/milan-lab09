@@ -128,11 +128,11 @@
 
 		<div class="contain">
 			<h2>Create an Account</h2>
+			<!-- a div intentionally left blank so the JS can add error messages-->
+			<span class="to-append-message"></span>
 			<!--account creation form stuff-->
 			<form method="post" action="admin_login.php">
 			<div>
-			<!-- a div intentionally left blank so the JS can add error messages-->
-			<div class="to-append-message"></div>
 			<input type="text" name="username" class="username" placeholder="Username" />
 			<input type="email" class="email" name="email" placeholder="Email" />
 			<input type="password" class="password" placeholder="Password" name="password"/>

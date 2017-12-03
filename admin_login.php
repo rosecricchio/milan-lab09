@@ -100,8 +100,8 @@
 			<!--login form stuff-->
 			<form method="post" action="admin_login.php">
 			<div>
-			<input type="text" name="username" placeholder="username" />
-			<input type="password" name="password"/>
+			<input type="text" name="username" class="username" placeholder="username" />
+			<input type="password" class="password" name="password"/>
 			<button type="submit" id="submit">Log In</button>
 			</div>
 			</form>
