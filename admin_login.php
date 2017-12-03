@@ -98,11 +98,15 @@
 		<div class="contain">
 			<h2>Login</h2>
 			<!--login form stuff-->
+			<form method="post" action="admin_login.php">
+			<div>
+			<input type="text" name="username" placeholder="username" />
+			<input type="password" name="password"/>
+			<button type="submit" id="submit">Log In</button>
+			</div>
+			</form>
+
 			<div class="explain">Don't have an account? Click <a href="admin_create.php"> here </a> to create one.</div>
 		</div>
 
-		<footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 9.</footer>
-
-	</body>
-
-</html>
+		<?php include "inc/footer.php" ?>

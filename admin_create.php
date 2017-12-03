@@ -129,10 +129,17 @@
 		<div class="contain">
 			<h2>Create an Account</h2>
 			<!--account creation form stuff-->
+			<form method="post" action="admin_login.php">
+			<div>
+			<!-- a div intentionally left blank so the JS can add error messages-->
+			<div class="to-append-message"></div>
+			<input type="text" name="username" class="username" placeholder="Username" />
+			<input type="email" class="email" name="email" placeholder="Email" />
+			<input type="password" class="password" placeholder="Password" name="password"/>
+			<input type="password" placeholder="Confirm Password" name="confirm_password" class="confirm_password"/>
+			<button type="submit" id="submit" disabled>Sign Up</button>
+			</div>
+			</form>
 		</div>
 
-		<footer> &copy; This webpage is created by Team Milan for CSC 174 Assignment 9.</footer>
-
-	</body>
-
-</html>
+		<?php include "inc/footer.php" ?>
