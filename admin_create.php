@@ -138,7 +138,7 @@
 
 
 			<!--account creation form stuff-->
-			<form method="post" action="admin_login.php">
+			<form method="post" action="admin_create.php">
 			<div>
 			<input type="text" name="username" class="username" placeholder="Username" />
 			<input type="email" class="email" name="email" placeholder="Email" />
