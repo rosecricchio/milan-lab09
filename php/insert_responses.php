@@ -64,8 +64,8 @@
 	$query .= "('{$fname}', '{$lname}', '{$email}', '{$isStudent}', '{$isIntStudent}', '{$country}', '{$cuisinesString}', '{$restaurantsString}', '{$comments}');";
 
 
-	$runquery = mysqli_query($mysqli, $query);
+	$runquery = mysqli_query($link, $query);
 
 
-	$mysqli->close();
+	$link->close();
 ?>

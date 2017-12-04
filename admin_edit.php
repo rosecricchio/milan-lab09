@@ -1,12 +1,12 @@
 <?php
-  // // Initialize the session
-  // session_start();
-  //
-  // // If session variable is not set it will redirect to login page
-  // if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-  //   header("location: admin_login.php");
-  //   exit;
-  // }
+  // Initialize the session
+  session_start();
+
+  // If session variable is not set it will redirect to login page
+  if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+    header("location: admin_login.php");
+    exit;
+  }
 
   require_once("php/create_table.php");
 
@@ -47,7 +47,7 @@
     while ($val = array_pop($updatedFields)) {
       $query  = "UPDATE responses ";
       $query .= "SET {$val[1]} = '{$val[0]}'";
-      $query .= "WHERE user_id = {$updateID};";
+      $query .= "WHERE indexVal = {$updateID};";
 
       $push = mysqli_query($link, $query);
 
@@ -94,7 +94,7 @@
 
           <tr>
             <th>Select</th>
-            <th>User ID</th>
+            <th>Index</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
@@ -109,8 +109,8 @@
           <?php while($temp = mysqli_fetch_assoc($result)) {  ?>
 
               <tr>
-                <td><input type="radio" name="selection" value=<?php echo $temp['user_id']; ?>></td>
-                <td><?php echo $temp['user_id']; ?></td>
+                <td><input type="radio" name="selection" value=<?php echo $temp['indexVal']; ?>></td>
+                <td><?php echo $temp['indexVal']; ?></td>
                 <td><?php echo $temp['fname']; ?></td>
                 <td><?php echo $temp['lname']; ?></td>
                 <td><?php echo $temp['email']; ?></td>

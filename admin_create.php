@@ -1,27 +1,12 @@
 <?php
-
-	// // Initialize the session
-	// session_start();
-  //
-	// // If session variable is not set it will redirect to login page
-	// if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-	// 	header("location: admin_login.php");
-	// 	exit;
-	// }
-
 	require_once("php/create_table.php");
 
 	// Define variables and initialize with empty values
-	$username = $password = $confirm_password = "";
-	$username_err = $password_err = $confirm_password_err = "";
+	$username = $password = "";
+	$error_message = "";
 
 	// Processing form data when form is submitted
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
-
-    // Validate username
-    if(empty(trim($_POST["username"]))){
-        $username_err = "Please enter a username.";
-    } else{
         // Prepare a select statement
         $sql = "SELECT indexVal FROM admininfo WHERE username = ?";
 
@@ -38,65 +23,43 @@
                 mysqli_stmt_store_result($stmt);
 
                 if(mysqli_stmt_num_rows($stmt) == 1){
-                    $username_err = "This username is already taken.";
+                    $error_message = "This username is already taken.";
                 } else{
                     $username = trim($_POST["username"]);
                 }
             } else{
-                echo "Oops! Something went wrong. Please try again later.";
+                $error_message = "Oops! Something went wrong. Please try again later.";
             }
         }
-
         // Close statement
         mysqli_stmt_close($stmt);
-    }
-
-    // // Validate password
-    // if(empty(trim($_POST['password']))){
-    //     $password_err = "Please enter a password.";
-    // } elseif(strlen(trim($_POST['password'])) < 6){
-    //     $password_err = "Password must have atleast 6 characters.";
-    // } else{
-    //     $password = trim($_POST['password']);
-    // }
-
-    // // Validate confirm password
-    // if(empty(trim($_POST["confirm_password"]))){
-    //     $confirm_password_err = 'Please confirm password.';
-    // } else{
-    //     $confirm_password = trim($_POST['confirm_password']);
-    //     if($password != $confirm_password){
-    //         $confirm_password_err = 'Password did not match.';
-    //     }
-    // }
-
     // Check input errors before inserting in database
-    if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
-
+    if(empty($error_message)){
         // Prepare an insert statement
-        $sql = "INSERT INTO admininfo (username, password) VALUES (?, ?)";
+        $sql = "INSERT INTO admininfo (username, password, email) VALUES (?, ?, ?)";
 
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
-            mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
+            mysqli_stmt_bind_param($stmt, "sss", $param_username, $param_password, $param_email);
 
             // Set parameters
+						$password = trim($_POST["password"]);
             $param_username = $username;
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
+						$param_email = trim($_POST["email"]);
 
             // Attempt to execute the prepared statement
             if(mysqli_stmt_execute($stmt)){
-                //TODO: show account creation page, Redirect to admin manage page
+								session_start();
+								$_SESSION['username'] = $username;
                 header("location: admin_view.php");
             } else{
                 echo "Something went wrong. Please try again later.";
             }
         }
-
         // Close statement
         mysqli_stmt_close($stmt);
     }
-
     // Close connection
     mysqli_close($link);
 }
@@ -131,7 +94,7 @@
 			<!-- a UL with LIs intentionally left blank so the JS can add error messages-->
 			<div>
 				<div class="password_err"></div>
-				<div class="username_err"></div>
+				<div class="error_message"><?php echo $error_message;?></div>
 				<div class="confirm_password_err"></div>
 				<div class="email_err"></div>
 			</div>

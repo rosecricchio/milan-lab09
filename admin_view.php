@@ -1,13 +1,13 @@
 <?php
 
-  // // Initialize the session
-  // session_start();
-  //
-  // // If session variable is not set it will redirect to login page
-  // if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
-  //   header("location: admin_login.php");
-  //   exit;
-  // }
+  // Initialize the session
+  session_start();
+
+  // If session variable is not set it will redirect to login page
+  if(!isset($_SESSION['username']) || empty($_SESSION['username'])){
+    header("location: admin_login.php");
+    exit;
+  }
 
   require_once("php/create_table.php");
 
@@ -50,7 +50,7 @@
       <table class="responses">
 
         <tr>
-          <th>User ID</th>
+          <th>Index</th>
           <th>First Name</th>
           <th>Last Name</th>
           <th>Email</th>
@@ -65,7 +65,7 @@
         <?php while($temp = mysqli_fetch_assoc($result)) {  ?>
 
             <tr>
-              <td><?php echo $temp['user_id']; ?></td>
+              <td><?php echo $temp['indexVal']; ?></td>
               <td><?php echo $temp['fname']; ?></td>
               <td><?php echo $temp['lname']; ?></td>
               <td><?php echo $temp['email']; ?></td>

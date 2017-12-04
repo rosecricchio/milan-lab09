@@ -16,7 +16,7 @@
 
 	// build table query
 	$query = "CREATE TABLE IF NOT EXISTS responses (
-				`user_id` int(11) NOT NULL AUTO_INCREMENT,
+				`indexVal` int(11) NOT NULL AUTO_INCREMENT,
 				`fname` varchar(30) NOT NULL,
 				`lname` varchar(30) NOT NULL,
 				`email` varchar(30) NOT NULL,
@@ -26,7 +26,7 @@
 				`cuisines` varchar(60) NOT NULL,
 				`restaurants` varchar(120) NOT NULL,
 				`comments` text NOT NULL,
-				PRIMARY KEY (`user_id`)
+				PRIMARY KEY (`indexVal`)
 			) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7;";
 
 	$stmt = mysqli_prepare($link, $query);
@@ -38,6 +38,7 @@
 				`indexVal` int(11) NOT NULL AUTO_INCREMENT,
 				`username` varchar(254) NOT NULL,
 				`password` varchar(254) NOT NULL,
+				`email` varchar(254) NOT NULL,
 				PRIMARY KEY (`indexVal`)
 			) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=7;";
 	$stmt = mysqli_prepare($link, $query);
