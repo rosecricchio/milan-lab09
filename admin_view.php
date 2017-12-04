@@ -65,7 +65,7 @@
         <?php while($temp = mysqli_fetch_assoc($result)) {  ?>
 
             <tr>
-              <td><?php echo $temp['user_id']; ?></td>
+              <td><?php echo $temp['indexVal']; ?></td>
               <td><?php echo $temp['fname']; ?></td>
               <td><?php echo $temp['lname']; ?></td>
               <td><?php echo $temp['email']; ?></td>

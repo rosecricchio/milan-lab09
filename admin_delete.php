@@ -17,7 +17,7 @@
       $deleteID = $current;
 
       $query  = "DELETE FROM responses ";
-      $query .= "WHERE user_id = {$deleteID};";
+      $query .= "WHERE indexVal = {$deleteID};";
 
       $push = mysqli_query($link, $query);
     }
@@ -78,8 +78,8 @@
           <?php while($temp = mysqli_fetch_assoc($result)) {  ?>
 
               <tr>
-                <td><input type="checkbox" name="selection[]" value=<?php echo $temp['user_id']; ?>></td>
-                <td><?php echo $temp['user_id']; ?></td>
+                <td><input type="checkbox" name="selection[]" value=<?php echo $temp['indexVal']; ?>></td>
+                <td><?php echo $temp['indexVal']; ?></td>
                 <td><?php echo $temp['fname']; ?></td>
                 <td><?php echo $temp['lname']; ?></td>
                 <td><?php echo $temp['email']; ?></td>
