@@ -17,18 +17,19 @@
   	<div class="masthead inner">
           <a class="masthead-brand" href="index.php">Rochester Eats</a>
           <nav class="nav nav-masthead">
-		    <a href="#anthro" class="active nav-link smoothScroll">BACKGROUND</a>
-		    <a href="#about" class="active nav-link smoothScroll">ABOUT</a>
-		    <a href="#goal" class="active nav-link smoothScroll">OUR GOAL</a>
-		    <a href="#survey" class="active nav-link smoothScroll">SURVEY</a>
+		    <a href="#anthro" class="active nav-link smoothScroll">Background</a>
+		    <a href="#about" class="active nav-link smoothScroll">About</a>
+		    <a href="#goal" class="active nav-link smoothScroll">Our Goal</a>
+		    <a href="#survey" class="active nav-link smoothScroll">Survey</a>
 		  </nav>
     </div>
   	<article>
   	<div class="contain">
 
 	  	<div id="landing">
+	  		<h1 class="title">Bring your Favorite Foods to Rochester!</h1>
+	  		<p>By: Team Milan</p>
 		  	<img src="images/yum-food.jpg" id="landing-img">
-		  	<h1 class="title">Bring your favorite foods to Rochester!</h1>
 	  	</div>
 
   	  	<div class="par" id="anthro">

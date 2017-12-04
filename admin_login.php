@@ -63,7 +63,7 @@
 		<!-- Our own custom CSS -->
 		<link href="css/styles.css" rel="stylesheet">
   		 <!-- Fonts -->
-  		<link href="https://fonts.googleapis.com/css?family=Shrikhand|Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
   		<title>Milan Lab 9- Admin Login</title>
 	</head>
 

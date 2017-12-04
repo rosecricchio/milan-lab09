@@ -27,7 +27,7 @@
 	<!-- Our own custom CSS -->
 	<link href="css/styles.css" rel="stylesheet">
    <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Shrikhand|Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
     <title>Milan Lab 9 - Admin View</title>
 
   </head>
@@ -35,7 +35,6 @@
   <body>
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
-      <div class="break">.</div>
 
       <h1>Administrator Access</h1><br>
 
