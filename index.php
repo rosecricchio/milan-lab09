@@ -18,19 +18,19 @@
           <a class="masthead-brand" href="index.php">Rochester Eats</a>
           <nav class="nav nav-masthead">
 		    <a href="#anthro" class="active nav-link smoothScroll">BACKGROUND</a>
-		    <a href="#rochester" class="active nav-link smoothScroll">ABOUT</a>
+		    <a href="#about" class="active nav-link smoothScroll">ABOUT</a>
 		    <a href="#goal" class="active nav-link smoothScroll">OUR GOAL</a>
 		    <a href="#survey" class="active nav-link smoothScroll">SURVEY</a>
 		  </nav>
     </div>
   	<article>
+  	<div id="landing">
+	  	<img src="images/yum-food.jpg" id="landing-img">
+	  	<h1 class="title">Bring your favorite foods to Rochester!</h1>
+  	</div>
+
   	<div class="contain">
-
-
-  	<img src="images/yum-food.jpg">
-  	<h1 class="title">Help us bring YOUR favorite foods to YOUR community!</h1>
-
-  	<div class="par">
+  	  	<div class="par" id="anthro">
 	  	<h2 class="offset">An Anthropological Perspective</h2>
 	  	<p>Apart from travelers, for whom eating out was first invented, few people eat out from necessity. Even more than in the home, eating out is a ceremonial event and must be considered as such. There are basically two types of eating out: entertaining oneself and entertaining others. In what sense is the family’s taking itself out to dinner ceremonial? Just as much as the family’s having the grandparents round to formal Sunday tea in the dining room. It is a special occasion marked by special dress and behavior. At its lowest level, it can depart little from eating informally at home: a visit to the local burger or fish and chip joint for a quick meal, for example. But even these places have rules that differ from the home. You cannot lounge around the local pizza parlor in a dressing gown. To go out in the street at all one must put on footwear. It all requires an effort that does not go into the informal home eating.</p>
 	  	<figure>
@@ -40,7 +40,7 @@
   	</div>
 
   	<div class="par">
-	  	<h2 class="offset">About Rochester</h2>
+	  	<h2 class="offset" id="about">About Rochester</h2>
 	  	<p>Rochester has five colleges and universities in close proximity to downtown. Many of the students in these colleges are international, and for some of them it is their first time in Rochester and in the U.S. It is very common that students live off campus after their first one or two years in college, and start eating on campus less over time. They switch to cooking at home or, due to their hectic schedule, at turn to restaurants or takeout. For students who come from very different background and cultures, it might be tough to adjust to one specific cuisine, or they simply might want variety over time given that they will spend at least four years in Rochester. Besides colleges, Rochester also has corporations like Wegmans, Xerox, Eastman Kodak, Verizon, and Exelis, who are some of the largest employers in the area. Given their employees busy schedules, dining options are not only important to students, who make up a large chunk of the local community, but also to working professionals.</p>
 
 	  	<figure>
@@ -65,7 +65,7 @@
 			</ol>
 	</div>
 
-  	<div class="par">
+  	<div class="par" id="goal">
 	  	<h2 class="offset">Our Goal</h2>
 	  	<p>Our aim is to understand what YOU, a Rochester local, like and dislike when it comes to various cuisines and restaurant options so that we can bring your favorite foods closer to you. Through our survey, we want to understand more about your background (which plays a big role at shaping your preferences) and what your favorite cuisines are. Please take our short survey and help us help you eat better!</p>
   	</div>
