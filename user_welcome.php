@@ -19,7 +19,7 @@ require_once("php/insert_responses.php");
 <body>
 	<div class="masthead">
          <div class="inner">
-              <a class="masthead-brand" href="user_survey.php">Rochester Eats</a>
+              <a class="masthead-brand" href="index.php">Rochester Eats</a>
          </div>
      </div>
 
@@ -30,7 +30,7 @@ require_once("php/insert_responses.php");
 
 	<br>
 
-	<div class="thanks">You can <a href="user_survey.php">click here</a> to go back to the homepage.</div>
+	<div class="thanks">You can <a href="index.php">click here</a> to go back to the homepage.</div>
 
 </div>
 
