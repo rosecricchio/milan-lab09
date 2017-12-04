@@ -36,9 +36,7 @@
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
 
-      <h1>Administrator Access</h1><br>
-
-      <h2>Current Responses to Your Survey</h2>
+      <h1>Current Responses to Your Survey</h1>
 
       <div class="explain">All the responses entered from participants are displayed on the table below. You can
       	<a href="admin_edit.php"> edit</a>

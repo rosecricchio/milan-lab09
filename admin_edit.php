@@ -80,9 +80,8 @@
   <body>
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
-    <h1>Administrator Access</h1><br>
 
-    <h2>Edit Responses</h2>
+    <h1>Edit Responses</h1>
 
     <div class="explain">Please select the entry you want to edit and use the boxes at the bottom of the table to update the section you want to change. Click 'Update' when finished.</div>
 
