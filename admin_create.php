@@ -89,10 +89,10 @@
      		 </div>
   		</div>
 
-		<div class="contain">
+		<div class="contain fill-in-form">
 			<h2>Create an Account</h2>
 			<!-- a UL with LIs intentionally left blank so the JS can add error messages-->
-			<div>
+			<div class="help-block">
 				<div class="password_err"></div>
 				<div class="error_message"><?php echo $error_message;?></div>
 				<div class="confirm_password_err"></div>
@@ -107,7 +107,7 @@
 			<input type="email" class="email" name="email" placeholder="Email" />
 			<input type="password" class="password" placeholder="Password" name="password"/>
 			<input type="password" placeholder="Confirm Password" name="confirm_password" class="confirm_password"/>
-			<button type="submit" id="submit" disabled>Sign Up</button>
+			<button type="submit" class="button" id="submit" disabled>Sign Up</button>
 			</div>
 			</form>
 		</div>

@@ -49,8 +49,6 @@
   <body>
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
-    <div class="break">.</div>
-
     <h1>Administrator Access</h1><br>
 
     <h2>Delete Responses</h2>

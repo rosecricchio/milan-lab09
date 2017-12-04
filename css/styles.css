@@ -16,29 +16,37 @@
   float: right;
 }
 
+.help-block{
+  color: #e25024;
+  font-size: 80%;
+}
+
+.fill-in-form{
+  margin: auto;
+  width: 30%;
+}
+
 h1{
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
-/*  text-align: center;
-*/  font-weight: bold;
+  font-weight: bold;
   color: black;
   letter-spacing: 3px;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 #landing{
-  margin-top: 60px;
-  width: 65%;
   max-width: 2000px;
-  padding: 2%;
   margin-right: auto;
   margin-left: auto;
 }
 
 body{
   font-family: 'Montserrat', sans-serif;
-  margin: 0 0 50px; /* bottom = footer height */
+  margin: 0 0 40px; /* bottom = footer height */
   color: black;
+  padding-top: 60px;
 }
 
 p {
@@ -46,7 +54,7 @@ p {
 }
 h2{
   font-family: 'Comfortaa', cursive;
-  color: black;
+  color: #424242;
   font-size: 1.5rem;
   padding-bottom: 10px;
   letter-spacing: 1px;
@@ -88,11 +96,11 @@ footer {
 }
 
 .survey{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 1rem 1rem 1.5rem 2rem;
 }
 .survey_color{
-  background-color: #E6E6FA;
+  background-color: #fffbbf;
 }
 
 .survey fieldset{
@@ -106,7 +114,7 @@ footer {
 }
 
 .question, .inpage_links{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.75rem;
 }
 
@@ -115,9 +123,9 @@ footer {
 }
 
 .explain {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
   padding-top: 1rem;
+  font-size: 80%;
   color: #333;
 }
 
@@ -149,7 +157,7 @@ table {
 }
 
 .responses {
-  font-family: 'Lato', Sans-Serif;
+  font-family: 'Montserrat', Sans-Serif;
   font-size: 0.8rem;
   background: #fff;
   border-collapse: collapse;
@@ -159,17 +167,17 @@ table {
 .responses th {
   font-size: 1em;
   font-weight: bold;
-  color: #ffe738;
+  color: black;
   padding: 5px 8px;
   border-bottom: 2px solid #493901;
 }
 .responses td {
-  color: #493901;
+  color: black;
   padding: 9px 8px 6px 8px;
 }
 
 .responses tbody tr:hover td{
-  color: #ffe738;
+  color: black;
   background-color: #ffe738;
 }
 
@@ -179,8 +187,9 @@ table {
 }
 
 .questions{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+  color: #424242;
   font-size: 1.2rem;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
@@ -190,7 +199,7 @@ form textarea {
     width: 100%;
     height: 100px;
 }
-.button {
+.button, button {
     background-color: #ffe738;
     border: none;
     border-radius: 4px;
@@ -305,7 +314,7 @@ form textarea {
 ---------------------------------------------------------------- */
 
 .nav {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   float: right;
 }
 
@@ -324,10 +333,13 @@ form textarea {
   color: white;
   font-size: 25px;
   margin-bottom: 0;
+  padding: 2px;
 }
 
 .masthead-brand:hover {
-  color: black;
+  color: white;
+  border: 3px solid white;
+  border-radius: 4px;
   text-decoration: none;
 }
 
@@ -341,7 +353,9 @@ form textarea {
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  color: black;
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white ;
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -356,9 +370,31 @@ form textarea {
    color: white;
 }
 
+/*------------------------------------------------
+                      FORMS
+-------------------------------------------------*/
+.fill-in-form input {
+    background-color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+
+.fill-in-form{
+  width: 300px;
+}
+
+.fill-in-form h2{
+  text-align: center;
+}
+
+.fill-in-form button, .fill-in-form input{
+  width: 100%;
+
+}
 
 /* CHECKBOX
----------------------------------------------------------------- */
+-------------------------------------------------*/
 /* Customize the label (the container) */
 .checkbox-container {
   display: block;
@@ -385,6 +421,7 @@ form textarea {
   left: 0;
   height: 25px;
   width: 25px;
+  border-radius: 4px;
   background-color: #fff;
 }
 
