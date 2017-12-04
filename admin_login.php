@@ -75,16 +75,14 @@
      		 </div>
   		</div>
 
-		<div class="contain">
+		<div class="contain fill-in-form">
 			<span class="help-block"><?php echo $username_err;?></span>
 			<h2>Login</h2>
 			<!--login form stuff-->
 			<form method="post" action="admin_login.php">
-			<div>
-			<input type="text" name="username" class="username" placeholder="Username" required/>
-			<input type="password" class="password" name="password" placeholder="Password" required/>
-			<button type="submit" id="submit">Log In</button>
-			</div>
+			<input type="text" name="username" class="username" placeholder="Username" required/><br>
+			<input type="password" class="password" name="password" placeholder="Password" required/><br>
+			<button type="submit" class="button" id="submit">Log In</button>
 			</form>
 
 			<div class="explain">Don't have an account? Click <a href="admin_create.php"> here </a> to create one.</div>
