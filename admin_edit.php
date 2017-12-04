@@ -94,7 +94,7 @@
 
           <tr>
             <th>Select</th>
-            <th>User ID</th>
+            <th>Index</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
