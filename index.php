@@ -39,8 +39,8 @@
 	  	</figure>
   	</div>
 
-  	<div class="par">
-	  	<h2 class="offset" id="about">About Rochester</h2>
+  	<div class="par" id="about">
+	  	<h2 class="offset">About Rochester</h2>
 	  	<p>Rochester has five colleges and universities in close proximity to downtown. Many of the students in these colleges are international, and for some of them it is their first time in Rochester and in the U.S. It is very common that students live off campus after their first one or two years in college, and start eating on campus less over time. They switch to cooking at home or, due to their hectic schedule, at turn to restaurants or takeout. For students who come from very different background and cultures, it might be tough to adjust to one specific cuisine, or they simply might want variety over time given that they will spend at least four years in Rochester. Besides colleges, Rochester also has corporations like Wegmans, Xerox, Eastman Kodak, Verizon, and Exelis, who are some of the largest employers in the area. Given their employees busy schedules, dining options are not only important to students, who make up a large chunk of the local community, but also to working professionals.</p>
 
 	  	<figure>
