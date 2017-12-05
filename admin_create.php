@@ -101,13 +101,13 @@
 
 
 			<!--account creation form stuff-->
-			<form method="post" action="admin_create.php">
+			<form method="post" action="admin_create.php" id="signUpForm">
 			<div>
-			<input type="text" name="username" class="username" placeholder="Username" />
-			<input type="email" class="email" name="email" placeholder="Email" />
-			<input type="password" class="password" placeholder="Password" name="password"/>
-			<input type="password" placeholder="Confirm Password" name="confirm_password" class="confirm_password"/>
-			<button type="submit" class="button" id="submit" disabled>Sign Up</button>
+			<input type="text" name="username" class="username" placeholder="Username" required/>
+			<input type="email" class="email" name="email" placeholder="Email" required/>
+			<input type="password" class="password" placeholder="Password" name="password" required/>
+			<input type="password" placeholder="Confirm Password" name="confirm_password" class="confirm_password" required/>
+			<button type="submit" class="button" id="submit">Sign Up</button>
 			</div>
 			</form>
 		</div>
