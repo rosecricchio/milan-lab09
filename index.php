@@ -28,7 +28,6 @@
 
 	  	<div id="landing">
 	  		<h1 class="title">Bring your Favorite Foods to Rochester!</h1>
-	  		<p>By: Team Milan</p>
 		  	<img src="images/yum-food.jpg" id="landing-img">
 	  	</div>
 
