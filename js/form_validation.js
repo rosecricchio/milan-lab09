@@ -1,4 +1,12 @@
 $(document).ready(function(){
+  // Clear error messages when User 'keyup's a new value
+  // Works with all error messages
+  $('.username, .password, .confirm_password, .email').keyup(function(){
+    $('.password_err, .confirm_password_err, .email_err, .error_message, .username_err').text('');
+  })
+
+
+  // Validate Create Form on Submit
   $('#signUpForm').submit(function(e){
     // password has to be longer than 6
 
@@ -8,6 +16,8 @@ $(document).ready(function(){
     } else {
       $('.password_err').text('');
     }
+
+
     // password and confirm passowrd must match
     if($('.password').val() != $('.confirm_password').val()){
       e.preventDefault()
@@ -15,6 +25,7 @@ $(document).ready(function(){
     } else {
       $('.confirm_password_err').text('');
     }
+
     // email must be valid
     // regular expression from https://stackoverflow.com/questions/9347282/using-jquery-preventing-form-from-submitting
     var re = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
