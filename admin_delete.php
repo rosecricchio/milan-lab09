@@ -49,9 +49,8 @@
   <body>
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
-    <h1>Administrator Access</h1><br>
 
-    <h2>Delete Responses</h2>
+    <h1>Delete Responses</h1>
 
     <div class="explain">Please select the entries you want to delete and click the 'Delete' button.</div>
 
