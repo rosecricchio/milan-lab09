@@ -78,7 +78,7 @@
 		<div class="contain fill-in-form">
 
 			<h2>Login</h2>
-			<span class="help-block username_err"><?php echo $username_err;?></span>
+			<span class="help-block error_message"><?php echo $username_err;?></span>
 			<!--login form stuff-->
 			<form method="post" action="admin_login.php">
 			<input type="text" name="username" class="username" placeholder="Username" required/><br>
