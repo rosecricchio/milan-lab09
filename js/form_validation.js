@@ -1,7 +1,8 @@
 $(document).ready(function(){
-  // Clear error messages when User 'keyup's a new value
+  // Clear error messages when User enters a new value
+  // Keyup does not distinguish autofill, use 'click' instead.
   // Works with all error messages
-  $('.username, .password, .confirm_password, .email').keyup(function(){
+  $('.username, .password, .confirm_password, .email').click(function(){
     $('.password_err, .confirm_password_err, .email_err, .error_message').text('');
   })
 
