@@ -1,7 +1,6 @@
 <?php
-
+//takes form data and insert responses to database
 require_once("php/insert_responses.php");
-
 ?>
 <!DOCTYPE html>
 <html>
