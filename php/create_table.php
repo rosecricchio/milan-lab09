@@ -17,13 +17,13 @@
 	// build table query
 	$query = "CREATE TABLE IF NOT EXISTS responses (
 				`indexVal` int(11) NOT NULL AUTO_INCREMENT,
-				`fname` varchar(30) NOT NULL,
-				`lname` varchar(30) NOT NULL,
-				`email` varchar(30) NOT NULL,
-				`isStudent` varchar(30) NOT NULL,
-				`isInternational` varchar(30) NOT NULL,
-				`country` varchar(30) NOT NULL,
-				`cuisines` varchar(60) NOT NULL,
+				`fname` varchar(35) NOT NULL,
+				`lname` varchar(35) NOT NULL,
+				`email` varchar(255) NOT NULL,
+				`isStudent` varchar(5) NOT NULL,
+				`isInternational` varchar(5) NOT NULL,
+				`country` varchar(52) NOT NULL,
+				`cuisines` varchar(120) NOT NULL,
 				`restaurants` varchar(120) NOT NULL,
 				`comments` text NOT NULL,
 				PRIMARY KEY (`indexVal`)
