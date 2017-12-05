@@ -28,7 +28,7 @@
 
 	  	<div id="landing">
 	  		<h1 class="title">Bring your Favorite Foods to Rochester!</h1>
-		  	<img src="images/yum-food.jpg" id="landing-img">
+		  	<img src="images/yum-food.jpg" alt="Bring Your Favorite Foods to Rochester" id="landing-img">
 	  	</div>
 
   	  	<div class="par" id="anthro">
@@ -203,7 +203,7 @@
 	<h3>Citations:</h3>
 	<ul>
 	<li>Source of the <a class="text-link" href="http://www.sirc.org/publik/food_and_eating_10.html">'An Anthropological Perspective'</a> paragraph.</li>
-	<li>Source of <a class="text-link" href="https://www.yelp.com/search?cflt=restaurants&find_loc=Rochester%2C+NY">'Yelp - Top 10 Rochester Restaurants'.</li>
+	<li>Source of <a class="text-link" href="https://www.yelp.com/search?cflt=restaurants&find_loc=Rochester%2C+NY">'Yelp - Top 10 Rochester Restaurants'.</a></li>
 	</ul>
 </div>
 	</form>
