@@ -136,7 +136,7 @@
 
         </table>
 
-        <input type="submit" value="Update" style="margin-top: 15px;">
+        <input type="submit" class="button" value="Update" style="margin-top: 15px;">
 
       </form>
 

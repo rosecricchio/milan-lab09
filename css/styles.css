@@ -221,7 +221,7 @@ form textarea {
 }
 
 .button:hover {
-    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.24), 0 10px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 10px 10px 0 rgba(0,0,0,0.19);
   }
 /* FORCING SCROLLBAR FOR MAC
 ---------------------------------------------------------------- */
