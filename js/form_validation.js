@@ -22,7 +22,7 @@ $(document).ready(function(){
     // password and confirm passowrd must match
     if($('.password').val() != $('.confirm_password').val()){
       e.preventDefault()
-      $('.confirm_password_err').text('Password must match Confirm Password')
+      $('.confirm_password_err').text('Password must match Confirm Password.')
     } else {
       $('.confirm_password_err').text('');
     }
