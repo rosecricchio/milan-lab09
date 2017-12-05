@@ -1,5 +1,5 @@
 
-/*LAYOUT 
+/*LAYOUT
 ******************************************/
 .par{
   display: block;
@@ -308,7 +308,7 @@ form textarea {
   transition: opacity .3s 0s, visibility 0s 0s;
 }
 
-}
+
 .no-touch .cd-top:hover {
   background-color: #e86256;
   opacity: 1;
@@ -420,7 +420,7 @@ form textarea {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  user-select: none;
+ /*  user-select: none; */
 }
 
 /* Hide the browser's default checkbox */
@@ -488,7 +488,7 @@ form textarea {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none;
+ /*  user-select: none; */
 }
 
 /* Hide the browser's default radio button */

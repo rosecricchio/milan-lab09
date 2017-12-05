@@ -31,7 +31,6 @@
 
   $link->close();
 ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -42,7 +41,7 @@
 	<link href="css/styles.css" rel="stylesheet">
    <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
-    <title>Milan Lab 9 - Admin Delete</title>
+  <title>Milan Lab 9 - Admin Delete</title>
 
   </head>
 
@@ -92,7 +91,7 @@
 
         </table>
 
-        <input type="submit" class="button" value="Delete" style="margin-top: 15px;">
+        <input type="submit" id="deleteBtn" class="button" value="Delete" style="margin-top: 15px;">
 
       </form>
 

@@ -17,7 +17,6 @@
 
   $link->close();
 ?>
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -31,7 +30,6 @@
     <title>Milan Lab 9 - Admin View</title>
 
   </head>
-
   <body>
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
