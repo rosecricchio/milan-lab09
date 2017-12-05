@@ -80,11 +80,6 @@
   <body>
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
-<<<<<<< HEAD
-
-=======
-  
->>>>>>> 8ef2c8a97ba9516cde856de8f160dbee56d96235
     <h1>Edit Responses</h1>
 
     <div class="explain">Please select the entry you want to edit and use the boxes at the bottom of the table to update the section you want to change. Click 'Update' when finished.</div>

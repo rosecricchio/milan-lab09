@@ -71,13 +71,11 @@
   	</div>
 </div><!--contain-->
 
-	<a id="survey" class="smoothScroll">
-	</a>
   	<form id="fullForm" action="user_welcome.php" method="post">
 
   	<div class="survey_color">
 
-  	<div class="survey contain">
+  	<div class="survey contain par" id="survey">
   	<fieldset>
 		<legend>Contact Information</legend>
 
@@ -218,6 +216,7 @@
 	<!-- SmoothScroll JS -->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/smoothscroll.js"></script>
+	<script type="text/javascript" src="js/scroll-highlight.js"></script>
 	<!-- Bootstrap Scripts for Navigation-->
 	<?php include "inc/scripts.php" ;?> 
 

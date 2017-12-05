@@ -3,8 +3,10 @@
 ******************************************/
 .par{
   display: block;
-  padding-top: 10px;
+  padding-top: 60px;
   padding-bottom: 20px;
+  margin-top: -50px;
+
 }
 
 .par > figure{
@@ -25,8 +27,6 @@
   margin: auto;
   width: 30%;
 }
-
-
 
 textarea, input{
   border-radius: 4px;
@@ -325,6 +325,10 @@ form textarea {
   float: right;
 }
 
+.active-highlighted {
+  border-color: white;
+  border-bottom: 2px solid white;
+}
 .masthead {
   background-color: #ffe738;
   position: fixed;
@@ -356,8 +360,7 @@ form textarea {
   color: rgba(255,255,255,.5);
   font-weight: bold;
   background-color: transparent;
-    text-transform: capitalize;
-
+    text-transform: uppercase;
 }
 
 .nav-masthead .nav-link:hover,
@@ -375,10 +378,10 @@ form textarea {
   color: white;
 }
 
-.nav-masthead .default{
-   color: white;
-    text-decoration: none;
-    border-bottom: 2px solid white ;
+#nav-admin .highlight{
+  color: white;
+  text-decoration: none;
+  border-bottom: 2px solid white ;
 }
 
 /*------------------------------------------------

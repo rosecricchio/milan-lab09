@@ -13,6 +13,6 @@ if ( thisFile == "" ) {
 
 $("nav a").each( function() {
 	if (this.href.indexOf(thisFile) > 0) {
-		$(this).addClass("default");
+		$(this).addClass("highlight");
 	}
 });
