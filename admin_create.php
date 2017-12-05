@@ -52,6 +52,7 @@
             if(mysqli_stmt_execute($stmt)){
 								session_start();
 								$_SESSION['username'] = $username;
+								$_SESSION['flashmessage'] = "A new admin account is successfully created";
                 header("location: admin_view.php");
             } else{
                 echo "Something went wrong. Please try again later.";

@@ -35,6 +35,15 @@
   <body>
     <?php include 'inc/admin_nav.php';?>
   	<article class="contain">
+      <div>
+
+      </div>
+      <?php if(isset($_SESSION['flashmessage'])){ ?>
+      <div class="flash_message">
+        <?php echo $_SESSION['flashmessage'] ?> for <?php echo $_SESSION['username'] ?>.
+        <?php unset($_SESSION['flashmessage']) ?>
+      </div>
+      <?php } ?>
 
       <h1>Current Responses</h1>
 
