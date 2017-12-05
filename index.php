@@ -94,7 +94,7 @@
 		<legend>Survey</legend>
 			<div class="questions first-h3">Are you a student?</div>
 			<label class="radio-container">Yes
-			  <input type="radio" id="studentYes" name="student" value="yes">
+			  <input type="radio" id="studentYes" name="student" value="yes" required>
 			  <span class="radio-checkmark"></span>
 			</label>
 			<label class="radio-container">No
@@ -218,7 +218,7 @@
 	<script type="text/javascript" src="js/smoothscroll.js"></script>
 	<script type="text/javascript" src="js/scroll-highlight.js"></script>
 	<!-- Bootstrap Scripts for Navigation-->
-	<?php include "inc/scripts.php" ;?> 
+	<?php include "inc/scripts.php" ;?>
 
   </body>
 

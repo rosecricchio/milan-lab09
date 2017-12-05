@@ -2,6 +2,11 @@
 
 	require_once("create_table.php");
 
+	// check if required field from form is set --> prevent direct access to user_welcome page.
+	if(!isset($_POST["fname"])){
+		header("location: index.php");
+		exit;
+	}
 	// take input values from POST
 	$fname = $_POST["fname"];
 	$lname = $_POST["lname"];
@@ -65,7 +70,6 @@
 
 
 	$runquery = mysqli_query($link, $query);
-
 
 	$link->close();
 ?>
