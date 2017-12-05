@@ -11,7 +11,7 @@ require_once("php/insert_responses.php");
 	<!-- Our own custom CSS -->
 	<link href="css/styles.css" rel="stylesheet">
 	<!-- Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Shrikhand|Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
 
     <title>Thank you!</title>
 </head>
@@ -23,13 +23,13 @@ require_once("php/insert_responses.php");
      </div>
 
 <div class="contain">
-	<h1>Thank you for your response, <?php echo $fname ?>!</h1>
+	<div class="thanks">
+		<h1>Thank you for your response, <?php echo $fname ?>!</h1>
 
-	<div class="thanks">We value your input and appreciate you taking time out of your day to answer our questions!</div>
+		<p>We value your input and appreciate you taking time out of your day to answer our questions!</p>
 
-	<br>
-
-	<div class="thanks">You can <a href="index.php">click here</a> to go back to the homepage.</div>
+		<p>You can <a href="index.php">click here</a> to go back to the homepage.
+	</div>
 
 </div>
 

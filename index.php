@@ -8,9 +8,7 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
-<!-- 	<link href="https://fonts.googleapis.com/css?family=Shrikhand|Lato" rel="stylesheet">
- -->
-    <title>Milan Lab 9</title>
+     <title>Milan Lab 9</title>
   </head>
 
   <body class="content">

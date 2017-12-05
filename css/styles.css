@@ -137,8 +137,9 @@ footer {
 }
 
 .thanks{
-  font-size: 2rem;
   text-align: center;
+  width: 65%;
+  margin: 0 auto;
 }
 
 .fixed {
