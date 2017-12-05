@@ -91,7 +91,7 @@
 
         </table>
 
-        <input type="submit" class="button" value="Delete" style="margin-top: 15px;">
+        <input type="submit" id="deleteBtn" class="button" value="Delete" style="margin-top: 15px;">
 
       </form>
 
